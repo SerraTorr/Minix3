@@ -1,3 +1,3 @@
 cp forkexit.c /usr/src/minix/servers/pm/
 cd /usr/src/
-make build MKUPDATE
+make build MKUPDATE=yes
