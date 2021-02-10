@@ -1,3 +1,3 @@
-cp forkexit.c /usr/src/Minix3/minix/servers/pm/
-cd /usr/src/
-make build MKUPDATE=yes >log.txt 2>log.txt
+cd /usr/src
+cp -f schedule.c /usr/src/minix/servers/sched/schedule.c
+make build MKUPDATE=yes >log.txt 2>log2.txt
